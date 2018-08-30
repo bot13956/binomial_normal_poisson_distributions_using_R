@@ -1,6 +1,6 @@
 # binomial_normal_poisson_distributions_using_R
 
-This code plots the binomial, normal and poisson probability distribution functions.
+This code plots the binomial, normal, and poisson probability distribution functions.
 
 prob_distributions.R: The R code that generates the plots.
 
