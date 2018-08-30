@@ -1,9 +1,8 @@
-#code to plot binomial, normal and poisson probability distributions
+#code to plot binomial, normal, and poisson probability distributions
 
 #created on 8/30/2018
 
 #@ Benjamin Tayo
-
 
 library(tidyverse)
 N<-100
