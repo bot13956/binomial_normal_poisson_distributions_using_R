@@ -12,7 +12,7 @@ mean<-N*p
 sd<-sqrt(N*p*(1-p))
 
 pdat<-data.frame(n=c(n,n,n),prob=c(dbinom(n,N,p),dnorm(n,mean,sd),dpois(n,mean)),
-                 type=sort(rep(c("binomial","normal","poison"),times=N)))
+                 type=sort(rep(c("binomial","normal","poisson"),times=N)))
 
 #plot distributions on same graph
 pdat%>%mutate(type=factor(type))%>%ggplot(aes(n,prob,color=type))+geom_point(size=2)+geom_line(size=0.75)
